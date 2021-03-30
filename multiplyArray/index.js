@@ -1,6 +1,6 @@
 const multiplyArray = (val) => {
     // please write your solution here
-    return val.reduce((a, b) => a*b).toString();
+    return val.reduce((a, b) => a*b);
 }
 
 
@@ -11,7 +11,7 @@ const testCaseCheckValue = (value = Array(), testValue, expectedResult) => {
 }
 
 const testCaseOutputMustBeString = (value = Array(), testValue, expectedResult = String) => {
-    return console.log(typeof(testValue) === typeof(expectedResult) 
+    return console.log(testValue === expectedResult 
         ? `Test Case 2: Success! multiply ${value} result type must be a string` 
         : `Test Case 2: Failed! Expected output type is string but got ${typeof(testValue)}`);
 }
