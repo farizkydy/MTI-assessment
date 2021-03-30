@@ -1,6 +1,6 @@
 const multiplyArray = (val) => {
     // please write your solution here
-    return val.reduce((a, b) => a * b).toString();
+    return val.reduce((a, b) => a*b).toString();
 }
 
 
