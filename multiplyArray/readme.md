@@ -7,5 +7,5 @@ example input:
 [13,1,10];
 
 expected output:
-'130'
+130
 ```
