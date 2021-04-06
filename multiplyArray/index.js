@@ -1,7 +1,7 @@
 const multiplyArray = (val) => {
     // please write your solution here
+    return val.reduce((a, b) => a *b ).toString();
 }
-
 
 const testCaseCheckValue = (value = Array(), testValue, expectedResult) => {
     return console.log(testValue == expectedResult 
